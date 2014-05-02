@@ -1,6 +1,6 @@
 {
   "name": "domainize",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "convert a name to and from reverse dns",
   "main": "index.js",
   "bin": {
