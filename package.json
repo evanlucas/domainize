@@ -1,0 +1,30 @@
+{
+  "name": "domainize",
+  "version": "0.0.0",
+  "description": "convert a name to and from reverse dns",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/*.js",
+    "cover": "./scripts/cover.sh && jostle coverage.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evanlucas/domainize.git"
+  },
+  "keywords": [
+    "reverse",
+    "dns",
+    "domain"
+  ],
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanlucas/domainize/issues"
+  },
+  "homepage": "https://github.com/evanlucas/domainize",
+  "devDependencies": {
+    "jostle": "0.0.1",
+    "mocha": "~1.18.2",
+    "should": "~3.3.1"
+  }
+}

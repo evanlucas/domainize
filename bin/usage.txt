@@ -1,0 +1,5 @@
+  domainize
+
+    usage: domainize <name> <domain>
+
+    example: domainize pride com.evan
