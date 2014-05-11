@@ -8,6 +8,18 @@ describe('domainize', function() {
     domain(input, d).should.equal('com.evan.pride')
   })
 
+  it('should work with multiple sections', function() {
+    var input = 'test'
+    var prefix = 'com.evan.curapps'
+    domain(input, prefix).should.equal('com.evan.curapps.test')
+  })
+
+  it('should strip multiple consecutive periods', function() {
+    var input = 'test'
+    var prefix = 'com.evan.'
+    domain(input, prefix).should.equal('com.evan.test')
+  })
+
   it('should have a `from` function', function() {
     var input = 'pride'
     var d = 'com.evan'
