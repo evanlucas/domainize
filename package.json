@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/evanlucas/domainize",
   "devDependencies": {
+    "blanket": "~1.1.6",
     "jostle": "~0.1.1",
     "mocha": "~1.18.2",
     "should": "~3.3.1"
